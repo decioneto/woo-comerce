@@ -1,0 +1,55 @@
+@import url("main.css");
+
+.container {
+    min-width: 1170px;
+    display: flex;
+    margin: auto;
+}
+
+.btn {
+    font-family: var(--font-family);
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    font-weight: 500;
+    font-size: 1em; 
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: background 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-primary-color);
+}
+
+.btn-primary:focus {
+    outline: 0;
+    box-shadow: 0 0 0 4px rgba(159, 133, 255, 0.5);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--text-color);
+    transition: color 0.2s ease;
+}
+
+.btn-secondary:hover {
+    color: var(--primary-color);
+}
+
+.btn-secondary:focus {
+    outline: 0;
+    box-shadow: 0 0 0 4px rgba(159, 133, 255, 0.5);
+}
+
+.ml-3 {
+    margin-left: 1.2rem;
+}
+
+.mr-3 {
+    margin-right: 1.2rem;
+}

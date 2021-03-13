@@ -1,0 +1,50 @@
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --primary-color: #7854F7;
+    --dark-primary-color: #5d3dd1;
+    --text-color: #272D4E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e5e5e5;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 1rem;
+}
+
+.menu {
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.menu .menu-nav {
+    display: flex;
+    list-style: none;
+    margin-left: 140px;
+}
+
+.menu .menu-nav li {
+    margin: 0 20px;
+}
+
+.menu .menu-nav li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.menu .menu-nav li a:hover {
+    color: var(--primary-color);
+}
+
+.menu .user-options {
+    margin-left: auto;
+}
