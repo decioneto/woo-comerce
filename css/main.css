@@ -21,6 +21,22 @@ body {
     font-size: 16px;
     padding: 0 1rem;
     overflow-x: hidden;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    background: linear-gradient( 
+    180deg, #E5EFFF 0%, 
+            rgba(229, 239, 255, 0.262661) 83.7%, 
+            rgba(229, 239, 255, 0) 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
 }
 
 .menu {
