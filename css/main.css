@@ -10,12 +10,17 @@
     padding: 0;
 }
 
+button:focus {
+    outline: none;
+}
+
 body {
     background-color: #e5e5e5;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     padding: 0 1rem;
+    overflow-x: hidden;
 }
 
 .menu {
@@ -47,4 +52,44 @@ body {
 
 .menu .user-options {
     margin-left: auto;
+}
+
+.hero-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.hero-heading .hero-text {
+    max-width: 850px;
+    margin-top: 5rem;
+}
+
+.hero-heading .hero-text .hero-title {
+    font-size: 5em;
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.hero-heading .hero-text .hero-description {
+    margin-top: 2.5rem;
+    font-size: 1.2em;
+    color: #94A2B3;
+}
+
+.hero-heading .hero-text .cta {
+    margin-top: 2.5rem;
+    color: #94A2B3;
+    font-size: 18px;
+}
+
+.hero-heading .hero-text .cta .cta-link {
+    color: #299EF3;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.hero-heading .hero-img {
+    margin-right: -240px;
 }
